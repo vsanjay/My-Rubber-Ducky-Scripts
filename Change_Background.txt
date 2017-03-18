@@ -1,0 +1,19 @@
+REM This Script changes your target computer's backgroung image to a Hacker image.
+REM Target - WINDOWS 7
+GUI d
+DELAY 200
+MENU
+DELAY 200
+STRING http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2016/06/hacker.shutterstock_380107090-930x620.jpg
+DELAY 100
+ENTER
+DELAY 1000
+CTRL S
+DELAY 200
+STRING %userprofile%\Desktop\qzwa
+ENTER
+GUI d
+DELAY 100
+STRING qzwa
+MENU
+STRING b
